@@ -29,12 +29,12 @@ const ExpenseItem = ({ id, name, cost }) => {
             <td>{name}</td>
             <td>£{cost}</td>
             <td>
-                <button className="btn btn-primary btn-sm" onClick={increaseAllocation}>
+                <button className="btn btn-primary btn-sm"  onClick={increaseAllocation}  style={{ backgroundColor: 'green', border: 'green' }}>
                     +
                 </button>
             </td>
             <td>
-                <button className="btn btn-primary btn-sm" onClick={handleDeleteExpense} style={{ cursor: 'pointer' }}>
+                <button className="btn btn-primary btn-sm" onClick={handleDeleteExpense} style={{ cursor: 'pointer', backgroundColor: 'red', border: 'red' }}>
                      -
                 </button>    
             </td>
