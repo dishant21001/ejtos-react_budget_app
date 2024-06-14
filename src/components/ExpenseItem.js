@@ -30,7 +30,7 @@ const ExpenseItem = ({ id, name, cost }) => {
             <td>£{cost}</td>
             <td>
                 <button className="btn btn-primary btn-sm" onClick={increaseAllocation}>
-                    +10
+                    +
                 </button>
             </td>
             <td>
