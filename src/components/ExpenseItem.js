@@ -34,7 +34,9 @@ const ExpenseItem = ({ id, name, cost }) => {
                 </button>
             </td>
             <td>
-                <TiDelete size='1.5em' onClick={handleDeleteExpense} style={{ cursor: 'pointer' }} />
+                <button className="btn btn-primary btn-sm" onClick={handleDeleteExpense} style={{ cursor: 'pointer' }}>
+                     -
+                </button>    
             </td>
         </tr>
     );
